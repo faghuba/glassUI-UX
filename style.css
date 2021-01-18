@@ -6,7 +6,7 @@
 h1{
     color: #426696;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
     opacity: 0.8;
 }
 h2, p {
@@ -29,7 +29,7 @@ main {
 }
 .glass {
     background: white;
-    min-height: 80vh;
+    min-height: 60vh;
     width: 60%;
     background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
@@ -53,6 +53,7 @@ main {
     bottom: 5%;
     left: 10%;
 }
+
 .dashboard {
     flex: 1;
     display: flex;
@@ -63,16 +64,10 @@ main {
     background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
 }
-/* user icon  */
-.dashboard, .user  img{
-    border-radius: 2rem;
-    align-items: center;
-    display: flex;
-}
 .link{
     display: flex;
     margin: 0rem 2rem;
-    padding: 1rem 5rem;
+    padding: 0.5rem 2rem;
     align-items: center;
 }
 .link h2 {
@@ -101,7 +96,7 @@ main {
 
 /* Games section  */
 .status {
-    margin-bottom: 3rem;    
+    margin-bottom: 1rem;    
 }
  .status input {
     background: linear-gradient(to right bottom, rgba(255, 255, 255,0.7), rgba(255, 255, 255, 0.3));
@@ -114,14 +109,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 5rem;
+    margin: 1rem;
 }
 .card {
     display: flex;
     background: linear-gradient(to left top, rgba(255, 255, 255,0.8), rgba(255, 255, 255, 0.5));
     border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
 }
